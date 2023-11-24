@@ -18,7 +18,7 @@ export default async function CustomersTable({
         <div className="overflow-x-auto">
           <div className="inline-block min-w-full align-middle">
             <div className="overflow-hidden rounded-md bg-gray-50 p-2 md:pt-0">
-              <div className="md:hidden">
+              {/* <div className="md:hidden">
                 {customers?.map((customer) => (
                   <div
                     key={customer.id}
@@ -58,7 +58,7 @@ export default async function CustomersTable({
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <table className="hidden min-w-full rounded-md text-gray-900 md:table">
                 <thead className="rounded-md bg-gray-50 text-left text-sm font-normal">
                   <tr>
